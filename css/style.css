@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: #0d7962;
+    height: 140px;
+}
+.section{
+    margin-top:15px;
+}
+.aside{
+    background:red;
+    height:auto;
+    width: 20%;
+    float: left;
+    
+}
+.content{
+    background:green;
+    height:auto;
+    width:79%;
+    float: left;
+    margin-left:1%;
+    
+}
