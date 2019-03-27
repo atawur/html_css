@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    background-image: url('../images/full-bg.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+.scioal_media_bar{
+    background: #928c91;
+    min-height: 30px;
+}
+.header-content{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.scoial-icon{
+    float: left;
+    width: 50%;
+}
+.contact-info{
+    float: right;
+    width: 50%;
+    text-align: right;
+}

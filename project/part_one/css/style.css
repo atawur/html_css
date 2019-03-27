@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    background-image: url('../images/full-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+   
+}
+.scioal-icon-bar{
+    background: #928c91;
+    width: 100%;
+}
+.inner-icon-bar{
+    min-height: 30px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.icon-bar{
+    width: 50%;
+    float: left;
+}
+.contact-info{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
