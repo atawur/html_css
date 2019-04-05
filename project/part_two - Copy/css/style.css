@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: red url('../images/full-bg.jpg') no-repeat ;
+    
+   
+    background-size: 300px 1000px;
+   
+}
+.scioal-icon-bar{
+    background: #928c91;
+    width: 100%;
+}
+.inner-icon-bar{
+    min-height: 30px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.icon-bar{
+    width: 50%;
+    float: left;
+}
+.contact-info{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.logo{
+    width: 15%;
+    float: left;
+   
+}
+.nav{
+    width: 85%;
+    float: left;
+    background:white
+}
+.nav-content{
+    min-height: 100px;
+    width: 80%;
+    margin: 0 auto;
+   
+
+}
+.nav-br{
+    background: white;
+}
