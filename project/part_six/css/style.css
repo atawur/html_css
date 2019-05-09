@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:white;
+    
+   
+}
+.scioal-icon-bar{
+    background: #928c91;
+    width: 100%;
+}
+.inner-icon-bar{
+    min-height: 30px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.icon-bar{
+    width: 50%;
+    float: left;
+    color: white;
+    padding-top: 7px;
+}
+.contact-info{
+   
+    width: 50%;
+    float: left;
+    text-align: right;
+    color: white;
+    padding-top: 6px
+}
+.nav-br{
+    background: white;  
+}
+.iner-nav{
+    min-height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    background:white;
+}
+.logo{
+    width: 15%;
+    float: left;
+   
+}
+.nav{
+    float: left;
+    width:85%;
+    
+}
+.nav ul{
+ list-style-type: none;  
+ margin: 0;
+ padding: 0;
+ background: black;
+ color:white; 
+ overflow: hidden;
+}
+.nav li {
+    float: left;
+    position: relative;
+    width: 150px;
+    list-style: none;
+}
+.nav > ul > li >a {
+    text-transform: uppercase;
+}
+.nav a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px;
+    color:white
+}
+.nav ul ul {
+    position:absolute;
+    left:0;
+    top:100%;
+    visibility: hidden;
+    opacity: 0;
+}
+.nav ul ul ul {
+ left: 100%;
+ top:0;
+}
+.nav li:hover,.nav li:hover li{
+    background: green;
+}
+.nav li:hover > ul {
+    visibility: visible;
+    opacity:1
+}
+.nav li:hover, #nav li:hover li {
+    background: #ddd;
+}
+
+.nav li li:hover, #nav li li:hover li {
+    background: #bbb;
+}
+
+.nav li li li:hover {
+    background: #999;
+}
+
+#nav ul {
+    background: white;
+    float: left;
+    
+    
+}
+
+#nav li {
+    float: left;
+    position: relative;
+    width: 150px;
+    list-style: none;
+    
+}
+
+#nav > ul > li > a, h1 {
+    text-transform: uppercase;
+    font-style:italic
+}
+
+#nav a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #000;
+}
+
+
+#nav ul ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+#nav li:hover, #nav li:hover li {
+    background: #ddd;
+}
+
+#nav li li:hover, #nav li li:hover li {
+    background: #bbb;
+}
+
+#nav li li li:hover {
+    background: #999;
+}
+
+#nav li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+}
