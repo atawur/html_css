@@ -43,118 +43,37 @@ body{
     float: left;
    
 }
-.nav{
+#nav{
     float: left;
     width:85%;
     
 }
-.nav ul{
- list-style-type: none;  
- margin: 0;
- padding: 0;
- background: black;
- color:white; 
- overflow: hidden;
-}
-.nav li {
+#nav ul{
+    background: #ccc;
     float: left;
-    position: relative;
-    width: 150px;
-    list-style: none;
-}
-.nav > ul > li >a {
-    text-transform: uppercase;
-}
-.nav a {
-    display: block;
-    text-decoration: none;
-    padding: 5px 15px;
-    color:white
-}
-.nav ul ul {
-    position:absolute;
-    left:0;
-    top:100%;
-    visibility: hidden;
-    opacity: 0;
-}
-.nav ul ul ul {
- left: 100%;
- top:0;
-}
-.nav li:hover,.nav li:hover li{
-    background: green;
-}
-.nav li:hover > ul {
-    visibility: visible;
-    opacity:1
-}
-.nav li:hover, #nav li:hover li {
-    background: #ddd;
-}
-
-.nav li li:hover, #nav li li:hover li {
-    background: #bbb;
-}
-
-.nav li li li:hover {
-    background: #999;
-}
-
-#nav ul {
-    background: white;
-    float: left;
-    
-    
 }
 
 #nav li {
     float: left;
     position: relative;
-    width: 150px;
     list-style: none;
-    
-}
+    width:150px;
 
-#nav > ul > li > a, h1 {
-    text-transform: uppercase;
-    font-style:italic
 }
-
 #nav a {
     display: block;
     text-decoration: none;
-    padding: 5px 15px;
-    color: #000;
 }
-
-
 #nav ul ul {
     position: absolute;
-    left: 0;
-    top: 100%;
+    left:0;
+    top:100%;
     visibility: hidden;
-    opacity: 0;
 }
-
 #nav ul ul ul {
-    left: 100%;
-    top: 0;
+    left:100%;
+    top:0
 }
-
-#nav li:hover, #nav li:hover li {
-    background: #ddd;
-}
-
-#nav li li:hover, #nav li li:hover li {
-    background: #bbb;
-}
-
-#nav li li li:hover {
-    background: #999;
-}
-
-#nav li:hover > ul {
+#nav li:hover > ul{
     visibility: visible;
-    opacity: 1;
 }
